@@ -1,14 +1,13 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "tbc-end-credits",
+  "title": "TBC: End Credits",
+  "description": "A module that allows you yo make cool end credits things",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 11,
+    "verified": 11,
   },
   "authors": [
     {

@@ -3,10 +3,9 @@
   "title": "TBC: End Credits",
   "description": "A module that allows you yo make cool end credits things",
   "version": "#{VERSION}#",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 11,
-    "verified": 11,
+    "minimum": 12,
+    "verified": 12
   },
   "authors": [
         {
@@ -15,7 +14,16 @@
   ],
   "relationships": {
     "systems": [],
-    "requires": []
+    "requires": [
+        {
+            "id": "sequencer",
+            "type": "module",
+            "compatibility": {
+                "minimum": "3.0.0",
+                "verified": "3.1.2"
+            }
+        }
+    ]
   },
   "esmodules": [
     "scripts/module.js"
